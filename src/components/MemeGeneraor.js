@@ -30,7 +30,7 @@ function MemeGeneraor() {
   return (
     <div> 
         <div className='name'>
-            MemeGenerator
+            Meme Generator
             {/* <h2>{name}</h2> */}
         </div>
         <div classname='meme-button'>
