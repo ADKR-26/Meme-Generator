@@ -1,4 +1,4 @@
-a {
+/* a {
     position: absolute;
     padding: 20px 50px;
     display: block;
@@ -67,4 +67,4 @@ a:hover .liquid {
     100% {
         transform: translate(-50%, -75%) rotate(360deg);
     }
-}
+} */
