@@ -36,7 +36,6 @@ function MemeGeneraor() {
   }
   useEffect(() => {
     getMemeData();
-    // console.log(setMeme);
   }, [render]);
 
   return (
@@ -47,10 +46,6 @@ function MemeGeneraor() {
       </div>
       <div classname='meme-button'>
         <button classname='meme-button' onClick={setRender}>New Meme</button>
-        {/* <a href='/' onClick={setRender}>
-                <span>New Meme</span>
-                <div class = 'liquid'></div>
-            </a> */}
       </div>
       <div>
         <img src={meme} alt='API FAILED' width={500}></img>
