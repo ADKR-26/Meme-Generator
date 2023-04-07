@@ -6,13 +6,8 @@ import './floatbutton.css';
 
 function MemeGeneraor() {
 
-  // const [name, setName] = useState();
   const [meme, setMeme] = useState();
   const [render, setRender] = useState();
-
-  // countapi.visits().then((result) => {
-  //   console.log(result);
-  // });
 
   axios.get('https://api.countapi.xyz/update/florin-popcom/ADKR/?amount=1')
     .then((result) => {
@@ -21,13 +16,11 @@ function MemeGeneraor() {
     });
 
   async function getMemeData() {
-    // const num = Math.floor(Math.random() * 100);
     try {
-      // const response = await axios.get('https://api.imgflip.com/get_memes');
+      
       const response = await axios.get('https://meme-api.com/gimme');
       setMeme(response.data.preview[1]);
-      // setMeme(response.data.data.memes[num].url);
-      // setName(response.data.data.memes[num].name);
+      
       console.log(response.data.preview[1]);
     }
     catch (error) {
