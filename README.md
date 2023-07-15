@@ -47,13 +47,12 @@
     <li>Push your branch to your forked repository: <code>git push origin feature/new-feature</code>.</li>
     <li>Open a pull request on the main repository.</li>
   </ol>
-  <p>Please follow the <a href="CODE_OF_CONDUCT.md">code of conduct</a> while contributing.</p>
 
   <h2>Contact</h2>
   <p>For any questions or inquiries, feel free to reach out to me:</p>
   <ul>
     <li>Email: adityavishwakarma2011@gmail.com </li>
-    <li>GitHub: <a href="https://github.com/ADKR-26">your-username</a></li>
+    <li>GitHub: <a href="https://github.com/ADKR-26">ADKR-26</a></li>
   </ul>
 
   <p>Enjoy generating memes with the Meme Generator!</p>
